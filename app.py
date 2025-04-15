@@ -9,7 +9,7 @@ app.secret_key = 'supersecretkey'
 sp_oauth = SpotifyOAuth(
     client_id='6e97c8af156649aeabb175b735db0189',
     client_secret='40cea650434a4e3394de4ab6cfd4ef25',
-    redirect_uri='http://127.0.0.1:8080/callback',
+    redirect_uri='https://hold-music-app.onrender.com/callback',
     scope='user-read-private user-read-email user-top-read'
 )
 
