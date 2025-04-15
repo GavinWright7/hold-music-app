@@ -41,5 +41,7 @@ def callback():
         return f"<h1>Error:</h1><pre>{str(e)}</pre>"
 
 if __name__ == '__main__':
+    print("✅ Flask is starting!")
     app.run(host='0.0.0.0', port=8080)
+
 
